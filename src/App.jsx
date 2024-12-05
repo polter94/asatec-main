@@ -2,7 +2,7 @@ import Navbar from './components/Navbar/Navbar';
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nosotros from "./components/Pages/Nosotros";
-import Tecnicos from "./components/Pages/Tecnicos";
+import Tecnicos from "./components/Pages/Tecnicos/";
 import Cursos from "./components/Pages/Cursos";
 import CampusVirtual from "./components/Pages/CampusVirtual";
 import Noticias from "./components/Pages/Noticias";
