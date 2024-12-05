@@ -40,8 +40,19 @@
     /* ?? tal vez mover a nav-links ?? */
 }   
 
+.logo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo{
-    width: 120px;
+    width: 100px;
+}
+
+.logo-container h1{
+    color: #2c3987;
 }
 
 /* --- --- --- ---  */
@@ -54,8 +65,14 @@
 
 @media screen and (max-width: 720px) {
     .navbar .nav-item {
-      display: none; /* Hide full nav menu */
+        display: none; /* Hide full nav menu */
+        
 }
+
+    .nav-links {
+        border-top-style: none;
+        border-bottom-style: none;
+    }
 
 .hamburger-menu {
     display: block; /* Show hamburger icon */
