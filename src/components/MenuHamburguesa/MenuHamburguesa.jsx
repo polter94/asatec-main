@@ -17,13 +17,12 @@ const MenuHamburguesa = () => {
             </div>
             <nav className={`menu ${isOpen ? "open" : ""}`}>
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#cursos">Cursos</a></li>
-                    <li><a href="#convenios">Convenios</a></li>
-                    <li><a href="#delegaciones">Delegaciones</a></li>
-                    <li><a href="#asociados">Asociados</a></li>
-                    <li><a href="#campusVirtual">Campus Virtual</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="/inicio">Inicio</a></li>
+                    <li><a href="/nosotros">Nosotros</a></li>
+                    <li><a href="/tecnicos">Tecnicos</a></li>
+                    <li><a href="/cursos">Cursos</a></li>
+                    <li><a href="/campusVirtual">Campus Virtual</a></li>
+                    <li><a href="/noticias">Noticias</a></li>
                 </ul>
             </nav>
         </div>

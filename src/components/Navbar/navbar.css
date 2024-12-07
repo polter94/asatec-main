@@ -5,7 +5,7 @@
 .navbar{
     display: flex;
     height: 15vh;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     /* background-color: #14213D; */
 
@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
     .navbar .nav-item {
         display: none; /* Hide full nav menu */
         

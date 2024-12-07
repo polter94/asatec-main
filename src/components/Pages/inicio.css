@@ -7,6 +7,28 @@
     align-items: center;
 }
 
+.inicio-background-blue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #0d0795;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.inicio-background-l-blue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #c5e1fd;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -19,22 +41,44 @@
     background-color: #c5e1fd;
     width: min(600px, 75vw);
     height: 400px;
-    
+}
+
+.container-transp {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 2rem;
+
+    width: min(500px, 70vw);
+    height: 400px;
+}
+
+.container-transp h2 {
+    margin-bottom: 2rem;
 }
 
 .text-box {
     margin-top: 2rem;
     width: 450px;
     
+    width: min(400px, 65vw);
 }
 
 .boton {
+    display: flex;
     background-color: #0d0795;
     color: white;
+    text-decoration: none;
     transition-duration: 0.3s;
 
-    width: 160px;
-    height: 35px; 
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 40px;
 
 }.boton:hover{
     color: #0d0795;
@@ -44,3 +88,22 @@
     border-color: #0d0795;
     border: 1px;
 }
+
+/* ******* */
+/* FUENTES */
+/* ******* */
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.anton {
+    font-family: "Anton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* *********** */
+/* MEDIA QUERY */
+/* *********** */
