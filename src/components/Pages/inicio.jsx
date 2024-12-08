@@ -2,6 +2,16 @@
 import "./inicio.css";
 import logo from "/public/img/ASATEC-logo.png";
 import aes from "/public/img/AES-logo.png";
+import feintec from "/public/img/FEINTEC.png";
+import muni from "/public/img/MUN-CBA.png";
+import asotec from "/public/img/ASOTEC.png";
+
+import { PiMapPin } from "react-icons/pi";
+import { PiPhone } from "react-icons/pi";
+import { PiEnvelope } from "react-icons/pi";
+import { PiThumbsUp } from "react-icons/pi";
+import { PiInstagramLogo } from "react-icons/pi";
+import { PiFacebookLogo } from "react-icons/pi";
 
 const inicio = () => {
   return (
@@ -33,7 +43,7 @@ const inicio = () => {
 
       <div className="container inicio-background-l-blue ">
         <div className="box-transp roboto">
-          <h2>Asociación Argentina de Técnicos en telefonía móvil- ASATEC.</h2>
+          <p className="title"><b>Asociación Argentina de Técnicos en telefonía móvil- ASATEC.</b></p>
           <p>
             Nuestra asociación <b>nació hace 15 años</b> con la misión de
             promover el desarrollo profesional de los técnicos de celulares.
@@ -47,6 +57,43 @@ const inicio = () => {
           <a href="/nosotros" className="boton">
             Leer mas
           </a>
+        </div>
+      </div>
+
+      <div className="container inicio-background-l-blue">
+        <div className="box-transp roboto">
+          <p className="title"><b>Trabajan y confían en nosotros:</b></p>
+          <img src={feintec} alt="" />
+          <img src={muni} alt="" />
+          <img src={asotec} alt="" />
+        </div>
+      </div>
+
+      <div className="container inicio-background-cactus">
+        <div className="box-white roboto">
+          <p className="title"><b>¡Asociate!</b></p>
+          <p>
+            ASATEC es la primera asociación de técnicos de celulares en
+            Argentina, y única en Latinoamérica. Contamos con múltiples
+            beneficios. Rellena el siguiente formulario para unirte a la red más
+            grande del país.
+          </p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSexTh2R6-aHYfsnvXIvHbX4ngbTnocA_rOVMYS6PYAOwpclnA/viewform"
+            className="boton"
+          >Quiero asociarme</a>
+        </div>
+      </div>
+
+      <div className="container inicio-background-l-blue">
+        <div className="box-transp roboto">
+        <p className="title"><b>Ubicación y contacto</b></p>
+        <a href="" className=""><PiMapPin className="icono"/></a>
+        <a href="" className=""><PiPhone className="icono"/></a>
+        <a href="" className=""><PiEnvelope className="icono"/></a>
+        <a href="" className=""><PiThumbsUp className="icono"/></a>
+        <a href="" className="icono-boton"><PiInstagramLogo className="icono-bold"/></a>
+        <a href="" className="icono-boton"><PiFacebookLogo className="icono-bold"/></a>
         </div>
       </div>
     </div>

@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
 
-      <head>
+      <head> 
         <title>ASATEC</title>
         <link rel="icon" type='image/x-icon' href='./public/img/ASATEC-logo.png' />
 

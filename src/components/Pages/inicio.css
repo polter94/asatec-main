@@ -45,6 +45,17 @@
   background-color: #c5e1fd;
 }
 
+.inicio-background-cactus {
+  display: flex;
+  height: 60vh;
+  background: url(../../../public/img/inicio-background.jpg) no-repeat center
+    center;
+  background-size: auto 100%;
+
+  justify-content: center;
+  align-items: end;
+}
+
 .box {
   display: flex;
   flex-direction: column;
@@ -54,8 +65,12 @@
   text-align: center;
   line-height: 2rem;
 
-  width: min(600px, 75vw);
-  height: min(400px, 60vh);
+  /* width: min(600px, 75vw);
+  height: min(400px, 60vh); */
+
+  width: min(600px, 85vw);
+  min-height: 60vh;
+  height: auto;
 
   background-color: #c5e1fd;
 }
@@ -68,18 +83,43 @@
   align-items: center;
   text-align: center;
   line-height: 2rem;
+  text-align: left;
 
-  width: min(500px, 70vw);
-  height: min(400px, 60vh);
+
+  /* width: min(500px, 70vw);
+  height: min(400px, 60vh); */
+
+  width: min(500px, 85vw);
+  min-height: 60vh;
+  height: auto;
 }
 
-.box-transp h2 {
-  margin-bottom: 2rem;
+.box-white {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: center;
+  line-height: 2rem;
+  text-align: left;
+  padding: 2rem;
+
+  /* width: min(500px, 70vw);
+  height: min(400px, 60vh); */
+
+  width: 100%;
+  min-height: 35vh;
+  height: auto;
+  
+  background-color: #ffffff;
+
+  p{width: 80vw;};
+  a{width: 100%;};
 }
 
 .text-box {
   margin-top: 2rem;
-
   width: min(400px, 55vw);
 }
 
@@ -87,6 +127,7 @@
   display: flex;
   background-color: #0d0795;
   color: white;
+  border: solid 1px transparent;
   text-decoration: none;
   transition-duration: 0.3s;
 
@@ -103,7 +144,27 @@
   transition-duration: 0.3s;
 
   border-color: #0d0795;
-  border: 1px;
+  border: solid 1px #0d0795;
+}
+
+.icono {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.icono-bold {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.icono-boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 99px;
+  width: 3rem;
+  height: 3rem;
 }
 
 /* ******* */
@@ -119,6 +180,10 @@
   font-family: "Anton", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.title {
+  font-size: 1.75rem;
 }
 
 /* *********** */
