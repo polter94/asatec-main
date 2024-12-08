@@ -69,8 +69,8 @@
   height: min(400px, 60vh); */
 
   width: min(600px, 85vw);
+  height: 600px;
   min-height: 60vh;
-  height: auto;
 
   background-color: #c5e1fd;
 }
