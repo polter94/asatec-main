@@ -60,6 +60,22 @@
   align-items: end;
 }
 
+.inicio-background-white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+
+  background-color: #ffffff;
+}
+
 .box {
   display: flex;
   flex-direction: column;
@@ -172,6 +188,39 @@
   width: 3rem;
   height: 3rem;
 }
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contacto-boton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-bottom: 2rem;
+}
+
+.contacto-boton-redes {
+  display: flex;
+  flex-direction: row;
+}
+
+.icono-boton {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+/* **** */
+/* MAPA */
+/* **** */
+
+.map {
+width: 95vw;}
 
 /* ******* */
 /* FUENTES */

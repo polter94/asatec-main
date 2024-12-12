@@ -88,13 +88,26 @@ const inicio = () => {
       <div className="container inicio-background-l-blue">
         <div className="box-transp roboto">
         <p className="title"><b>Ubicación y contacto</b></p>
-        <a href="" className=""><PiMapPin className="icono"/></a>
-        <a href="" className=""><PiPhone className="icono"/></a>
-        <a href="" className=""><PiEnvelope className="icono"/></a>
-        <a href="" className=""><PiThumbsUp className="icono"/></a>
-        <a href="" className="icono-boton"><PiInstagramLogo className="icono-bold"/></a>
-        <a href="" className="icono-boton"><PiFacebookLogo className="icono-bold"/></a>
+          <div className="contacto">
+            <a href="https://www.google.com/maps/place/Av.+Col%C3%B3n+350,+X5022+C%C3%B3rdoba/@-31.412135,-64.1902469,17z/data=!3m1!4b1!4m6!3m5!1s0x94329878c0a6ed7b:0x8bf3fafe13a10e62!8m2!3d-31.412135!4d-64.187672!16s%2Fg%2F11k64qhzqc?entry=ttu&g_ep=EgoyMDI0MTIwOS4wIKXMDSoASAFQAw%3D%3D" className="contacto-boton"><PiMapPin className="icono"/>
+            Av. Colón 350 – Piso 2, Oficina 4.</a>
+
+            <a href="" className="contacto-boton"><PiPhone className="icono"/>351-3237771</a>
+
+            <a href="" className="contacto-boton"><PiEnvelope className="icono"/>mail@ejemplo.com.ar</a>
+
+            <a href="" className=""><PiThumbsUp className="icono"/></a>
+
+            <div className="contacto-boton-redes">
+              <a href="https://www.instagram.com/asatecoficial/" className="icono-boton"><PiInstagramLogo className="icono-bold"/></a>
+              <a href="https://www.facebook.com/asatec.org" className="icono-boton"><PiFacebookLogo className="icono-bold"/></a>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div className="container inicio-background-white">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1lslrRqMWZiZQsoYB_LXi49GpPAao5kY&ehbc=2E312F" width="640" height="480" className="map"></iframe>
       </div>
     </div>
   );
